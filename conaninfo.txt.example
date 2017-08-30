@@ -1,0 +1,72 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=Visual Studio
+    compiler.runtime=MD
+    compiler.version=14
+    os=Windows
+
+[requires]
+    Boost/1.Y.Z
+    lua-cpp/5.Y.Z
+    lua-intf/0.1
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=Visual Studio
+    compiler.runtime=MD
+    compiler.version=14
+    os=Windows
+
+[full_requires]
+    Boost/1.64.0@inexorgame/stable:7569deb7626b9f88e03d1b57f5ad4b34f8383a6f
+    lua-cpp/5.3.4@jinq0123/testing:c85f9b402dd4d46acdf074e1c63b768a41181d7a
+    lua-intf/0.1@jinq0123/testing:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    zlib/1.2.11@lasote/stable:c85f9b402dd4d46acdf074e1c63b768a41181d7a
+
+[full_options]
+    Boost:header_only=False
+    Boost:python=False
+    Boost:shared=True
+    Boost:without_atomic=False
+    Boost:without_chrono=False
+    Boost:without_container=False
+    Boost:without_context=False
+    Boost:without_coroutine=False
+    Boost:without_coroutine2=False
+    Boost:without_date_time=False
+    Boost:without_exception=False
+    Boost:without_filesystem=False
+    Boost:without_graph=False
+    Boost:without_graph_parallel=False
+    Boost:without_iostreams=False
+    Boost:without_locale=False
+    Boost:without_log=False
+    Boost:without_math=False
+    Boost:without_mpi=False
+    Boost:without_program_options=False
+    Boost:without_random=False
+    Boost:without_regex=False
+    Boost:without_serialization=False
+    Boost:without_signals=False
+    Boost:without_system=False
+    Boost:without_test=False
+    Boost:without_thread=False
+    Boost:without_timer=False
+    Boost:without_type_erasure=False
+    Boost:without_wave=False
+    lua-cpp:shared=True
+    zlib:shared=True
+
+[scope]
+    dev=True
+
+[recipe_hash]
+
+
+[env]
+

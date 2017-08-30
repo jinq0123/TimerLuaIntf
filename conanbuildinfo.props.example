@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Label="Conan-RootDirs">
+    <Conan-Boost-Root>C:/.conan\diovha\1</Conan-Boost-Root>
+    <Conan-lua-cpp-Root>C:\Users\jinqing\.conan\data\lua-cpp\5.3.4\jinq0123\testing\package\c85f9b402dd4d46acdf074e1c63b768a41181d7a</Conan-lua-cpp-Root>
+    <Conan-lua-intf-Root>C:\Users\jinqing\.conan\data\lua-intf\0.1\jinq0123\testing\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9</Conan-lua-intf-Root>
+    <Conan-zlib-Root>C:\Users\jinqing\.conan\data\zlib\1.2.11\lasote\stable\package\c85f9b402dd4d46acdf074e1c63b768a41181d7a</Conan-zlib-Root>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ExecutablePath>C:/.conan/diovha/1/bin;C:/Users/jinqing/.conan/data/lua-cpp/5.3.4/jinq0123/testing/package/c85f9b402dd4d46acdf074e1c63b768a41181d7a/bin;C:/Users/jinqing/.conan/data/lua-intf/0.1/jinq0123/testing/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/bin;C:/Users/jinqing/.conan/data/zlib/1.2.11/lasote/stable/package/c85f9b402dd4d46acdf074e1c63b768a41181d7a/bin;$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LocalDebuggerEnvironment>PATH=%PATH%;C:/.conan/diovha/1/bin;C:/Users/jinqing/.conan/data/lua-cpp/5.3.4/jinq0123/testing/package/c85f9b402dd4d46acdf074e1c63b768a41181d7a/bin;C:/Users/jinqing/.conan/data/lua-intf/0.1/jinq0123/testing/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/bin;C:/Users/jinqing/.conan/data/zlib/1.2.11/lasote/stable/package/c85f9b402dd4d46acdf074e1c63b768a41181d7a/bin;</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:/.conan/diovha/1/include;C:/Users/jinqing/.conan/data/lua-cpp/5.3.4/jinq0123/testing/package/c85f9b402dd4d46acdf074e1c63b768a41181d7a/include;C:/Users/jinqing/.conan/data/lua-intf/0.1/jinq0123/testing/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include;C:/Users/jinqing/.conan/data/zlib/1.2.11/lasote/stable/package/c85f9b402dd4d46acdf074e1c63b768a41181d7a/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions> %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:/.conan/diovha/1/lib;C:/Users/jinqing/.conan/data/lua-cpp/5.3.4/jinq0123/testing/package/c85f9b402dd4d46acdf074e1c63b768a41181d7a/lib;C:/Users/jinqing/.conan/data/lua-intf/0.1/jinq0123/testing/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib;C:/Users/jinqing/.conan/data/zlib/1.2.11/lasote/stable/package/c85f9b402dd4d46acdf074e1c63b768a41181d7a/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>boost_wave-vc140-mt-1_64.lib;boost_unit_test_framework-vc140-mt-1_64.lib;boost_prg_exec_monitor-vc140-mt-1_64.lib;boost_container-vc140-mt-1_64.lib;boost_graph-vc140-mt-1_64.lib;boost_iostreams-vc140-mt-1_64.lib;boost_locale-vc140-mt-1_64.lib;boost_log-vc140-mt-1_64.lib;boost_log_setup-vc140-mt-1_64.lib;boost_math_c99-vc140-mt-1_64.lib;boost_math_c99f-vc140-mt-1_64.lib;boost_math_c99l-vc140-mt-1_64.lib;boost_math_tr1-vc140-mt-1_64.lib;boost_math_tr1f-vc140-mt-1_64.lib;boost_math_tr1l-vc140-mt-1_64.lib;boost_program_options-vc140-mt-1_64.lib;boost_random-vc140-mt-1_64.lib;boost_regex-vc140-mt-1_64.lib;boost_wserialization-vc140-mt-1_64.lib;boost_serialization-vc140-mt-1_64.lib;boost_signals-vc140-mt-1_64.lib;boost_coroutine-vc140-mt-1_64.lib;boost_context-vc140-mt-1_64.lib;boost_timer-vc140-mt-1_64.lib;boost_thread-vc140-mt-1_64.lib;boost_chrono-vc140-mt-1_64.lib;boost_date_time-vc140-mt-1_64.lib;boost_atomic-vc140-mt-1_64.lib;boost_filesystem-vc140-mt-1_64.lib;boost_system-vc140-mt-1_64.lib;libboost_exception-vc140-mt-1_64.lib;libboost_test_exec_monitor-vc140-mt-1_64.lib;lua-cpp.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions> %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
