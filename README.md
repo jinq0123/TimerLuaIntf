@@ -6,16 +6,17 @@ Just a test.
 ## Conclusion
 * Lua is fast.
 * LuaIntf is good.
+* Call from Lua to C++ is faster than from C++ to Lua.
 
 ## Build
 1. Install [conan](http://docs.conan.io/en/latest/installation.html).
 1. `conan remote add remote_bintray_jinq0123 https://api.bintray.com/conan/jinq0123/test`
 1. `conan install --build missing`
-```
-PROJECT: Generator visual_studio created conanbuildinfo.props
-PROJECT: Generated conaninfo.txt
-```
-1. Use sln to build
+	```
+	PROJECT: Generator visual_studio created conanbuildinfo.props
+	PROJECT: Generated conaninfo.txt
+	```
+1. Use sln to build. Select Release config.
 
 ## Output
 ```
@@ -31,3 +32,4 @@ Lua calls C++ add_times() once:
 
 ## Reference
 * http://www.cnblogs.com/archy_yu/p/3185608.html
+* http://blog.csdn.net/jq0123/article/details/77719388
